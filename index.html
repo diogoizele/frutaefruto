@@ -11,7 +11,8 @@
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/about.css" />
-    <link rel="stylesheet" href="./assets/css/banner.css" />
+    <link rel="stylesheet" href="./assets/css/banner.css" media="screen and (min-width: 768px)" />
+    <link rel="stylesheet" href="./assets/css/bannerMobile.css" media="screen and (max-width: 768px)">
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/recipes.css" />
     <link rel="stylesheet" href="./assets/css/people.css">
@@ -48,9 +49,10 @@
     <section class="banner box-1" id="inicio">
       <img class="banner-icon fruits" id="fruitsIcon" src="./assets/img/icones/fruits.png" alt="Frutas">
       <img class="banner-icon salad" id="saladIcon" src="./assets/img/icones/salad.png" alt="Salada">
-      <h2 class="banner-title" id="animatedTitle">
+      <h2 class="banner-title message" id="animatedTitle">
         Aproveite melhor os alimentos!
       </h2>
+      <h2 class="banner-title mobile">Fruta & Fruto</h2>
     </section>
     <section class="about" id="receitas">
       <h2 class="about-title">Receitas para economizar e ganhar saúde</h2>
@@ -63,6 +65,7 @@
       <ul class="recipes">
         <li class="recipe">
           <img
+          class="recipe-image"
             src="./assets/img/receitas/beterrabas-assadas.jpg"
             alt="Beterrabas Assadas"
           />
@@ -77,6 +80,7 @@
         </li>
         <li class="recipe">
           <img
+          class="recipe-image"
             src="./assets/img/receitas/mix-de-vegetais.jpg"
             alt="Mix de Vegetais"
           />
@@ -91,6 +95,7 @@
         </li>
         <li class="recipe">
           <img
+          class="recipe-image"
             src="./assets/img/receitas/pimentoes-a-juliana.jpg"
             alt="Pimentões a Juliana"
           />
@@ -105,6 +110,7 @@
         </li>
         <li class="recipe">
           <img
+          class="recipe-image"
             src="./assets/img/receitas/prato-oriental.jpg"
             alt="Prato Oriental"
           />
@@ -119,6 +125,7 @@
         </li>
         <li class="recipe">
           <img
+          class="recipe-image"
             src="./assets/img/receitas/salada-de-kiwi.jpg"
             alt="Salada de Kiwi"
           />
@@ -133,6 +140,7 @@
         </li>
         <li class="recipe">
           <img
+          class="recipe-image"
             src="./assets/img/receitas/tigela-de-abacate.jpg"
             alt="Tigela de Abacate"
           />
